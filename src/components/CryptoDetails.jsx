@@ -21,7 +21,7 @@ const CryptoDetails = () => {
 
   if (isFetching) return <Loader/>
   console.log(cryptoDetails);
-  console.log(coinHistory);
+  console.log(coinHistory); 
 
   
 
