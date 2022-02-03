@@ -15,7 +15,7 @@ const Navbar = () => {
 
         handlerResize();
 
-        return () => window.addEventListener('resize', handlerResize);
+        return () => window.removeEventListener('resize', handlerResize); // component did unmount 
     },[]);
 
     useEffect(() => {
